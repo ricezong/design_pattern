@@ -1,4 +1,4 @@
-package net.gz.observer;
+package com.kong.demo;
 
 /**
  * Listener的顶级接口，为了抽象Listener而存在

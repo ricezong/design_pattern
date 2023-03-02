@@ -1,4 +1,4 @@
-package net.gz.observer;
+package com.kong.demo;
 
 /**
  * 短信事件类

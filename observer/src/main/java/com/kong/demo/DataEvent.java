@@ -1,4 +1,4 @@
-package net.gz.observer;
+package com.kong.demo;
 
 import lombok.Data;
 

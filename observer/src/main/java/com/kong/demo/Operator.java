@@ -1,4 +1,4 @@
-package net.gz.observer;
+package com.kong.demo;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -8,8 +8,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  */
 public class Operator {
     public static void main(String[] args) {
-        //通过spring的AnnotationConfigApplicationContext将com.example.demo.user.admin.design路径下的所有加了spring注解的类都扫描放入spring容器
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("net.gz.observer");
+        //通过spring的AnnotationConfigApplicationContext将com.gz.demo路径下的所有加了spring注解的类都扫描放入spring容器
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.gz.demo");
         //从spring容器中获取对应bean的实例
         LoopObserverImpl loopObserver = context.getBean(LoopObserverImpl.class);
         MyScoreListener scoreL = context.getBean(MyScoreListener.class);

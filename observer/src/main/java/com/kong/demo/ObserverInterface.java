@@ -1,4 +1,4 @@
-package net.gz.observer;
+package com.kong.demo;
 
 /**
  * 观察者的顶层接口
